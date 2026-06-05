@@ -1,0 +1,14 @@
+import { useLocation } from 'react-router';
+
+export default function RateResult() {
+  const location = useLocation();
+
+  const rating = location.state?.rating;
+
+  return (
+    <div>
+      <h1>Thank You!</h1>
+      <p>You selected {rating} out of 5</p>
+    </div>
+  );
+}
