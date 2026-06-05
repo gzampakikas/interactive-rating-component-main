@@ -38,7 +38,7 @@ export default function RateResult() {
                 You selected {rating} out of 5
             </span>
 
-            <span className="text-white text-4xl">Thank you!</span>
+            <h1 className="text-white text-4xl">Thank you!</h1>
 
             <p className="text-grey-500 mx-15">
                 We appreciete you Taking the time to give a rating. If you ever need more 

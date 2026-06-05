@@ -47,7 +47,7 @@ export default function Rating() {
                 " 
             />
 
-            <span className="text-white text-4xl">How did we do?</span>
+            <h1 className="text-white text-4xl">How did we do?</h1>
 
             <p>
                 Please let us know how we did with your support
