@@ -9,7 +9,6 @@ export default function Rating() {
 
     function handleSubmit(e: React.SyntheticEvent): void {
         e.preventDefault();
-        
         if (!selectedRating) 
             return alert('select rating');
 
@@ -33,6 +32,7 @@ export default function Rating() {
                 gap-4
                 p-10
                 w-160
+                max-[665px]:w-91.25
             "
             onSubmit={handleSubmit}
         >

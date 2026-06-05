@@ -20,6 +20,7 @@ export default function RateResult() {
                 gap-4
                 p-10
                 w-160
+                max-[665px]:w-91.25
             "
         >
             <img 
